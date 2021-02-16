@@ -1,4 +1,4 @@
-<h1>Initial to terraform in EKS at aws</h1>
+<h1>Initial to terraform in EKS (1.18) at aws</h1>
 
 > Codebase to create the infrastructure as code for an EKS environment on AWS
 
@@ -23,9 +23,9 @@ terraform validate
 ## Apply applications on cluster
 
 ```sh
-kubectl apply -f k8s/apps/ipa.yml
+kubectl apply -f k8s/apps/faker.yml
 kubectl apply -f k8s/apps/whois.yml
-kubectl apply -f k8s/apps/pale-ale.yml
+kubectl apply -f k8s/apps/pudim.yml
 ```
 
 ## Apply ingress controller on cluster (Traefik)
