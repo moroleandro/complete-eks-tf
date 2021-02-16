@@ -1,4 +1,4 @@
-<h1>Initial to terraform in EKS (1.18) at aws</h1>
+<h1 align="center">Initial to terraform in EKS (1.18) at AWS</h1>
 
 > Codebase to create the infrastructure as code for an EKS environment on AWS
 
