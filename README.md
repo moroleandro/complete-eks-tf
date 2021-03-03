@@ -36,7 +36,7 @@ kubectl apply -f k8s/traefik/ingress.yml
 
 # Usage services on cluster
 
-- Whois -> simple query data from a dns record
+- Whois -> sample query data from a dns record
 - Faker -> returns data from random people
 - Pudim -> return sample HTML
 
